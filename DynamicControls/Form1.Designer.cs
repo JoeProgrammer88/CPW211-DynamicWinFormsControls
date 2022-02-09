@@ -39,6 +39,7 @@
             this.btnCreateButtons.TabIndex = 0;
             this.btnCreateButtons.Text = "Add More Buttons";
             this.btnCreateButtons.UseVisualStyleBackColor = true;
+            this.btnCreateButtons.Click += new System.EventHandler(this.btnCreateButtons_Click);
             // 
             // Form1
             // 
